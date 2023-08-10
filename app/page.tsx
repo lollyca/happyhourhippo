@@ -6,7 +6,7 @@ export default function Home() {
     <div className="grid grid-cols-12 grid-rows-1 h-full">
       <div className="col-span-2">gap</div>
  {/* --------------------------------------------MAIN-------------------------------------------------- */}
-      <div className="grid grid-rows-12 grid-cols-1 col-span-8">
+      <div className="grid grid-cols-1 col-span-8">
 
         <div className="bg-pink row-span-5 flex justify-center">
           <div className="bg-green w-2/4 flex flex-col justify-center">
@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-purple row-span-3">
+        <div className="bg-purple">
           <div>
             <MiniSectionCards />
           </div>
