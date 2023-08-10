@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -34,7 +35,7 @@ const config: Config = {
       'danger': '#a02f40',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
