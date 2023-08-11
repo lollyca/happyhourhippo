@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="bg-pink row-span-5 flex justify-center">
           <div className="bg-green w-2/4 flex flex-col justify-center">
-            <h1></h1>
+            <img src="/highlight.jpg" alt="hilight of the day" />
           </div>
         </div>
 
