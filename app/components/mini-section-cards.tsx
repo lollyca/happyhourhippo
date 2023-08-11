@@ -13,8 +13,7 @@ const posts = [
       name: 'Michael Foster',
       role: 'Co-Founder / CTO',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: '/thumbs1x1/1.jpg',
     },
   },
   {
@@ -31,8 +30,7 @@ const posts = [
       name: 'Michael Foster',
       role: 'Co-Founder / CTO',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: '/thumbs1x1/2.jpg',
     },
   },
   {
@@ -49,8 +47,7 @@ const posts = [
       name: 'Michael Foster',
       role: 'Co-Founder / CTO',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: '/thumbs1x1/3.jpg',
     },
   },
   // More posts...
@@ -61,17 +58,17 @@ export default function MiniSectionCards() {
     <div className="grid grid-rows-5 grid-cols-1 grid-flow-col gap-4">
 
 
-      <div className="bg-pink row-span-1 border-b border-gray-200 pt-5">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
+      <div className="bg-pink row-span-1 border-b border-gray-200 pt-5 ps-3">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Happy Hours</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Learn how to grow your business with our expert advice.
+          Find your next favorite bar in San Diego
         </p>
       </div>
 
 
       <div className="grid grid-cols-3 gap-x-8  bg-green row-span-4">
         {posts.map((post) => (
-          <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
+          <article key={post.id} className="flex max-w-xl flex-col items-start justify-between px-3">
             <div>
               <img src={post.author.imageUrl} alt="" className="h-100 w-100 rounded" />
             </div>
