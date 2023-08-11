@@ -53,12 +53,12 @@ const posts = [
   // More posts...
 ]
 
-export default function MiniSectionCards() {
+export default function HappyHourCards() {
   return (
-    <div className="grid grid-rows-5 grid-cols-1 grid-flow-col gap-4">
+    <div className="grid grid-rows-5 grid-cols-1 grid-flow-col gap-4 mb-10">
 
 
-      <div className="bg-pink row-span-1 border-b border-gray-200 pt-5 ps-3">
+      <div className="row-span-1 border-b border-gray-200 pt-5 ps-3 bg-white">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Happy Hours</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
           Find your next favorite bar in San Diego
@@ -66,7 +66,7 @@ export default function MiniSectionCards() {
       </div>
 
 
-      <div className="grid grid-cols-3 gap-x-8  bg-green row-span-4">
+      <div className="grid grid-cols-3 gap-x-8 row-span-4">
         {posts.map((post) => (
           <article key={post.id} className="flex max-w-xl flex-col items-start justify-between px-3">
             <div>
