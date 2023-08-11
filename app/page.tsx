@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="bg-pink flex justify-center">
           <div className="bg-green w-2/4 flex flex-col justify-center">
-            <img src="/highlight.jpg" alt="hilight of the day" />
+            <img className="pb-3 rounded" style={{height: '40vh', objectFit: "cover"}} src="/highlight.jpg" alt="hilight of the day" />
           </div>
         </div>
 
