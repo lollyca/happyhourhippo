@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="grid grid-cols-12 grid-rows-1 h-full">
       <div className="col-span-2">gap</div>
- {/* --------------------------------------------MAIN-------------------------------------------------- */}
+      {/* --------------------------------------------MAIN-------------------------------------------------- */}
       <div className="grid grid-cols-1 col-span-8">
 
         <div className="bg-pink row-span-5 flex justify-center">
@@ -20,15 +20,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-purple">
-          <div>
-            <MiniSectionCards />
-          </div>
+
+        <div className="">
+          <MiniSectionCards />
         </div>
 
         <div className="bg-yellow row-span-3">maybe a map</div>
       </div>
-{/* ------------------------------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------------------------ */}
       <div className="col-span-2">gap</div>
     </div>
   )
