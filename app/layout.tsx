@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html className="" lang="en">
       <body className="">
-        <div>
+        <div className="">
           <Navbar />
         </div>
         {children}
