@@ -9,12 +9,12 @@ export default function Home() {
       {/* --------------------------------------------MAIN-------------------------------------------------- */}
       <div className="grid grid-cols-1 col-span-8">
 
-        <div className=" flex justify-center">
+        <div className="flex justify-center bg-dark">
           <Highlight />
         </div>
 
         <div className="flex justify-center">
-          <div className="w-2/4 flex flex-col justify-center text-center my-10">
+          <div className="w-1/2 flex flex-col justify-center text-center my-10">
             < SelectMenu />
           </div>
         </div>
