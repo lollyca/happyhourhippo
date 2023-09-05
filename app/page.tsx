@@ -9,8 +9,8 @@ export default function Home() {
       {/* --------------------------------------------MAIN-------------------------------------------------- */}
       <div className="grid grid-cols-1 col-span-8">
 
-        <div className=" flex justify-center">
-          <Highlight />
+        <div className="flex justify-center">
+          {/* <Highlight /> */}
         </div>
 
         <div className="flex justify-center">
