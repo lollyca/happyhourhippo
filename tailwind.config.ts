@@ -35,7 +35,7 @@ const config: Config = {
       'danger': '#a02f40',
     },
     fontFamily: {
-      sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       serif: ['Merriweather', 'serif'],
     },
     extend: {

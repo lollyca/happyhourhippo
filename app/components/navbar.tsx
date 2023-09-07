@@ -17,10 +17,10 @@ export default function Navbar() {
 
   return (
     <div className="h-16 px-2 sm:px-6 lg:px-8 bg-dark flex items-center">
-      <div className="mr-4">
+      <div className="mr-auto">
         <img
           className="h-8 w-auto rounded-full"
-          src="/beerlo.jpg"
+          src="/beerloLogo.svg"
           alt="Your Company"
         />
       </div>
