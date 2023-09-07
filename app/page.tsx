@@ -13,7 +13,7 @@ export default function Home() {
           <Highlight />
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center bg-dark">
           <div className="w-1/2 flex flex-col justify-center text-center my-10">
             < SelectMenu />
           </div>
