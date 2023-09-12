@@ -58,11 +58,10 @@ export default function HappyHourCards() {
     <div className="grid grid-rows-5 grid-cols-1 grid-flow-col gap-4 mb-10">
 
 
-      <div className="row-span-1 border-b border-gray-200 pt-5 ps-3 bg-white">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Happy Hours</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
-          Find your next favorite bar in San Diego
-        </p>
+      <div className="border-b border-gray-200 bg-white flex flex-col justify-center p-3">
+
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Find your Happy HouEr</h2>
+        {/* <p className="mt-2 text-lg leading-8 text-gray-600">Find your Happy HouEr</p> */}
       </div>
 
 
